@@ -6,11 +6,13 @@ body {
 
 /* Resets */
 
-body {
+body,
+.chirpus {
   margin: 0px;
+  padding: 0px;
 }
 
-.gray-link {
+.all-link {
   padding: 10px;
   color: #69696a;
   text-decoration: none;
@@ -22,6 +24,9 @@ body {
   padding: 10px;
 }
 
+.chirpus {
+  font-size: medium;
+}
 .main-header {
   margin: 14px;
 }
@@ -43,7 +48,7 @@ body {
   margin: 16px;
 }
 
-.lorem {
+.lorem-text {
   padding-left: 14px;
   margin: 2px;
 }
@@ -55,12 +60,10 @@ body {
   background-color: rgba(247, 193, 162, 0.7);
 }
 
-.bottom {
-  text-align: right;
+.bottom-container {
   float: right;
 }
 
 .footer-links {
   padding: 10px;
-  display: inline;
 }
